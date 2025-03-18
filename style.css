@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+body {
+  background-color: var(--bg);
+}
+
+:root {
+  --sariq: #fb982f;
+  --qora: #000;
+  --oq: #fff;
+  --bg: #c4b5a5;
+}
+.dark {
+  --oq: #000;
+  --bg: #000;
+  --qora: #fff;
+  --sariq: #fb982f;
+}
+
+.header01 h2{
+  color: var(--qora);
+  font-size: 30px;
+}
+
+.header01 {
+  padding: 80px 0;
+}
+
+.header01 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+.header01 nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+.header01 nav ul li {
+  list-style: none;
+}
+.header01 nav ul li a {
+  text-decoration: none;
+  color: var(--qora);
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn {
+  width: 131.771484375px;
+  height: 41.34323501586914px;
+  top: 61px;
+  left: 1161px;
+  border-radius: 6px;
+  background-color: inherit;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  transition: 1s;
+  color: var(--qora);
+}
+.btn1 {
+  width: 131.771484375px;
+  height: 41.34323501586914px;
+  top: 61px;
+  left: 1309px;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: inherit;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  transition: 1s;
+  color: var(--qora);
+}
+.btn:hover {
+  background-color: var(--sariq);
+  color: var(--qora);
+  border: none;
+  transform: scale(1.2);
+}
+.btn1:hover {
+  background-color: var(--qora);
+  color: var(--oq);
+  transform: scale(1.2);
+  border: none;
+}
+.btn-box {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.btn2 {
+  margin-top: 100px;
+  transition: 1s;
+  width: 195px;
+  height: 53px;
+  top: 561px;
+  left: 119px;
+  border-radius: 40px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: inherit;
+  color: var(--qora);
+}
+.hero-text h3 {
+  margin-top: 100px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 155%;
+  letter-spacing: 0%;
+  color: var(--qora);
+}
+.hero-text p {
+  margin-top: 100px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  letter-spacing: 0%;
+  color: var(--qora);
+}
+.btn2:hover {
+  background: linear-gradient(92.48deg, #fa8305 2.08%, #fb9e3c 117.25%);
+  color: var(--qora);
+  transform: scale(1.2);
+  border: none;
+}
+
+.df01 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
